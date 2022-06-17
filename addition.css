@@ -1,0 +1,36 @@
+body{
+    background: linear-gradient(lightblue,rgb(135, 190, 208),rgb(85, 174, 203),rgb(35, 130, 162));
+}
+
+.heading{
+    width: 100%;
+}
+
+.heading h3{
+    display:inline;
+    
+}
+
+.heading button{
+    float: right;
+    border:1px solid white;
+    color:rgb(49, 127, 154);
+}
+
+#setting{
+    text-align: center;
+}
+
+h4{
+    line-height:2;
+    margin:0px;
+}
+
+.modal-dialog{
+    width: 90%;
+}
+
+.intruction_image{
+    display: inline-block;
+    width: 45%;
+}

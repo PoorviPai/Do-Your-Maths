@@ -1,0 +1,57 @@
+<html>
+
+<head>
+  <title>Do your Maths app</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+</head>
+
+<body>
+<center>
+  <div class="btn btn-primary heading">
+  <h3>Do your Maths</h3>
+  <button class="btn btn-primary" data-toggle="modal" data-target="#myModal">Instructions</button>
+</div>
+ <br><br>
+  <button class="btn btn-muted" id="addition" onclick="add()">Addition</button>
+  <br><br>
+  <button class="btn btn-muted" id="subtraction" onclick="sub()">Subtraction</button>
+  <br><br>
+  <button class="btn btn-muted" id="multiplication" onclick="multi()">Multiplication</button>
+  <br><br>
+  <button class="btn btn-muted" id="division" onclick="divi()">Division</button>
+
+  <div id="myModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" data-dismiss="modal">&times;</button>
+                <h4>Instructions</h4>
+            </div>
+
+            <div class="modal-body">
+                <ol>
+                    <li>Click on the button with the operation that you would like to do.</li>
+                    <li>There will be 2 random number placed with the operation that you selected.</li>
+                    <li>type the answer in the text input box given.</li>
+                    <li>Once you have typed the answer click check and if your answer is correct then a new question will appear but if it is wrong you have to solve it again.</li>
+                    <li>if you want to go back and do another operation click on the back button.
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</div>
+</center>
+<script src="main.js"></script>
+</body>
+
+</html>
+
+
